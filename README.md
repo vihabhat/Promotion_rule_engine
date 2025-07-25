@@ -1,20 +1,51 @@
-# 🎰 Promotion Rule Engine Microservice
 
-A configurable and testable rule engine designed for a casino gaming platform to allocate personalized promotions to players based on dynamic user attributes.
+##  Promotion Rule Engine Microservice — Documentation
+
+###  Objective
+
+Design a small REST microservice that selects the most appropriate in-game promotion for a player based on configurable business rules defined in YAML format.
 
 ---
 
-#### 🔨 Implemented Features:
-- ✅ **Rule Configuration**: YAML-based engine, easy to update without code changes
-- ✅ **Multiple Rule Attributes**: Priority, A/B buckets, time windows, and condition operators
-- ✅ **Multiple Promotion Types**: Bonus credits, cashback, multipliers, and more
-- ✅ **Batch Evaluation Engine**: CLI script to simulate thousands of users
-- ✅ **API Interface**: Flask-based `/evaluate` endpoint for real-time promotion allocation
-- ✅ **Testing**: 16 fully passing unit tests using `pytest`
+##  Technology Stack
 
+* **Language:** Python 3.12
+* **Framework:** Flask
+* **Config Format:** YAML
+* **Data Handling:** In-memory
+* **Testing:** `curl`, Postman, PowerShell
+* **AI Help:** ChatGPT (disclosed below)
 
-## 📁 Project Structure
+---
 
+##  Core Features
+
+### 1. **Promotion Evaluation API**
+
+* **Endpoint:** `POST /evaluate`
+* **Request Body:** JSON with `user_profile` object
+* **Response:** The most suitable promotion for the player, or `null` if none match.
+
+### 2. **Hot Rule Reload**
+
+* **Endpoint:** `POST /reload_rules`
+* **Purpose:** Reload rules from `rules/rules.yaml` into memory without restarting the server.
+
+### 3. **Metrics API**
+
+* **Endpoint:** `GET /metrics`
+* **Response:** JSON with:
+
+  * Total evaluations
+  * Hit count (rules matched)
+  * Miss count (no rule matched)
+  * Average latency in ms
+
+---
+
+##  Folder Structure
+
+```
 Promotion_rule_engine_microservice/
 │
 ├── app.py # Flask API layer
@@ -42,7 +73,46 @@ Promotion_rule_engine_microservice/
 │
 └── requirements.txt # Python dependencies
 
-## ⚙️ Installation
+---
+
+##  Sample Rules (YAML)
+
+```yaml
+rules:
+  - id: promo1
+    enabled: true
+    conditions:
+      level: { min: 10, max: 30 }
+      country: [US, CA]
+      spend_tier: vip
+    time_window:
+      start: "2024-01-01"
+      end: "2025-12-31"
+    promotion: "Double Gems Bonus"
+```
+
+---
+
+##  Sample Request (PowerShell)
+
+```powershell
+$headers = @{ "Content-Type" = "application/json" }
+$body = @{
+  user_profile = @{
+    player_id = "user123"
+    level = 25
+    total_spent = 5000
+    current_balance = 1000
+    country = "US"
+    spend_tier = "vip"
+    days_since_last_purchase = 15
+    registration_date = "2023-01-01"
+  }
+}
+$bodyJson = $body | ConvertTo-Json -Depth 5
+Invoke-RestMethod -Uri http://localhost:5000/evaluate -Method POST -Headers $headers -Body $bodyJson
+
+##  Installation
 
 ```bash
 git clone https://github.com/vihabhat/Promotion_rule_engine_microservice.git
@@ -51,14 +121,14 @@ pip install -r requirements.txt
 
 Rules Configurations are stored in rules.yaml file
 
-## ⚙️ Runings
+##  Runings
 
 Running tests: 
-pytest
+"pytest"
 There are 16 test cases all needs to be cleared.
 
 Command to generate bulk users and save to JSON:
-python -m scripts.generate_users
+"python -m scripts.generate_users"
 
 This script Simulates a list of user profiles with realistic values (like level, total_spent, spend_tier, etc.)
 
@@ -66,11 +136,11 @@ Saves the output to:
 data/sample_users.json
 
 Simulating Bulk Users:
-python -m scripts.run_evaluations
+"python -m scripts.run_evaluations"
 this outputs the results to data/evaluation_results.json
 
 Running the API:
-python app.py
+"python app.py"
 
 Test using powershell:
 $headers = @{ "Content-Type" = "application/json" }
@@ -105,14 +175,81 @@ API Response :
     }
   ]
 }
+---
 
-🧠 Designed For
+##  Reflection and Rationale
+
+### a. **Design Choices**
+
+* Used Flask for a lightweight, quick-to-implement REST API.
+* Rules are kept in YAML for human-readability and easy reconfiguration.
+* Separated rule logic (`matcher.py`) from app logic (`app.py`) to maintain modularity and scalability.
+* Metrics were stored in a global dictionary to reduce DB dependency.
+
+### b. **Trade-offs**
+
+| Choice                 | Trade-off Made                              |
+| ---------------------- | ------------------------------------------- |
+| In-memory rule loading | Fast access, but not persistent             |
+| Simple YAML parsing    | Easy editing, but no schema validation      |
+| Flask over FastAPI     | Less strict typing, but quicker prototyping |
+
+### c. **Areas of Uncertainty**
+
+* Considered whether to evaluate all matching rules or just return the first match. Chose first match, assuming business priority ordering in YAML.
+* Unsure whether performance metrics should persist across restarts. Currently reset on server restart.
+
+### d. **AI Assistance Disclosure**
+
+* Used **ChatGPT** for:
+
+  * Structuring `matcher.py` and `evaluate_user_promotions`.
+  * Generating sample user evaluation code in PowerShell.
+  * YAML rule formatting.
+
+---
+
+##  API Summary
+
+| Endpoint        | Method | Description                          |
+| --------------- | ------ | ------------------------------------ |
+| `/`             | GET    | Service info and available endpoints |
+| `/evaluate`     | POST   | Evaluate player for promotion        |
+| `/reload_rules` | POST   | Reload rules from YAML               |
+| `/metrics`      | GET    | Returns usage statistics             |
+
+---
+
+##  Good Coding Practices
+
+ **Encapsulation:** Rule matching logic is inside `RuleMatcher` class.
+ **Separation of Concerns:** YAML loading, rule matching, and API logic are split.
+ **Error Handling:** Handles invalid input with meaningful 400 errors.
+ **Modularity:** Each core logic exists in separate functions/files.
+ **Naming:** Used meaningful and consistent variable/function names.
+ **Docs:** Inline comments and structured `README.md` included.
+
+---
+
+##  Testing Tips
+
+* Make sure to keep `rules.yaml` inside the `rules/` folder.
+* Reload rules using:
+  `Invoke-RestMethod -Uri http://localhost:5000/reload_rules -Method POST`
+* Evaluate a player profile using:
+  `Invoke-RestMethod -Uri http://localhost:5000/evaluate -Method POST -Headers $headers -Body $bodyJson`
+* Fetch usage metrics with:
+  `Invoke-RestMethod -Uri http://localhost:5000/metrics -Method GET`
+
+---
+
+ Designed For
 
 1. Casino operators to run marketing experiments (A/B test promotions)
 2. Scalable integration with player segmentation and user retention logic
 3. Extendable rule system without code changes (just update YAML)
 
 
-👩‍💻 Author
+ Author
 Viha Suhas Bhat
 Built as part of an internship assignment with focus on backend microservice design, config-driven systems, and rule-based automation.
