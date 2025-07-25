@@ -49,17 +49,25 @@ git clone https://github.com/vihabhat/Promotion_rule_engine_microservice.git
 cd Promotion_rule_engine_microservice
 pip install -r requirements.txt
 
+Rules Configurations are stored in rules.yaml file
+
 ## ⚙️ Runings
 
 Running tests: 
 pytest
 There are 16 test cases all needs to be cleared.
 
+Command to generate bulk users and save to JSON:
+python -m scripts.generate_users
+
+This script Simulates a list of user profiles with realistic values (like level, total_spent, spend_tier, etc.)
+
+Saves the output to:
+data/sample_users.json
+
 Simulating Bulk Users:
 python -m scripts.run_evaluations
 this outputs the results to data/evaluation_results.json
-
-Rules Configurations are stored in rules.yaml file
 
 Running the API:
 python app.py
