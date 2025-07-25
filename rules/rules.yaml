@@ -1,0 +1,143 @@
+# Promotion Rule Engine Configuration
+# This file defines business rules for selecting appropriate promotions
+
+# Global configuration
+config:
+  version: "1.0"
+  description: "Casino promotion rules for player engagement"
+  last_updated: "2024-01-01"
+
+# Rule definitions (evaluated in priority order - higher number = higher priority)
+rules:
+  
+  - id: "comeback_bonus"
+    priority: 90
+    enabled: true
+    conditions:
+      days_since_last_purchase: { min: 30 }
+    promotion:
+      id: "comeback_bonus"
+      type: "bonus_credits"
+      amount: 100.0
+
+  - id: "daily_login_5"
+    priority: 80
+    enabled: true
+    conditions:
+      days_since_last_purchase: { max: 5 }
+    promotion:
+      id: "daily_login_5"
+      type: "bonus_credits"
+      amount: 5.0
+
+  - id: "vip_bonus"
+    priority: 95
+    enabled: true
+    conditions:
+      spend_tier: "vip"
+    promotion:
+      id: "vip_bonus"
+      type: "bonus_credits"
+      amount: 200.0
+
+  - id: "us_bonus"
+    priority: 70
+    enabled: true
+    conditions:
+      country: "US"
+    promotion:
+      id: "us_bonus"
+      type: "bonus_credits"
+      amount: 50.0
+
+  - id: "level_bonus"
+    priority: 60
+    enabled: true
+    conditions:
+      level: { min: 30 }
+    promotion:
+      id: "level_bonus"
+      type: "bonus_credits"
+      amount: 75.0
+
+  - id: "silver_bonus"
+    priority: 50
+    enabled: true
+    conditions:
+      spend_tier: "silver"
+    promotion:
+      id: "silver_bonus"
+      type: "bonus_credits"
+      amount: 60.0
+
+  - id: "diamond_bonus"
+    priority: 65
+    enabled: true
+    conditions:
+      spend_tier: "diamond"
+    promotion:
+      id: "diamond_bonus"
+      type: "bonus_credits"
+      amount: 120.0
+
+  - id: "high_balance_bonus"
+    priority: 55
+    enabled: true
+    conditions:
+      current_balance: { min: 3000 }
+    promotion:
+      id: "high_balance_bonus"
+      type: "bonus_credits"
+      amount: 85.0
+
+
+# Configuration for A/B testing buckets
+ab_testing:
+  vip_retention_test:
+    description: "Testing different VIP retention strategies"
+    traffic_split: 0.5  # 50% of VIP players
+    
+  welcome_bonus_test:
+    description: "Testing welcome bonus amounts"
+    traffic_split: 0.3  # 30% of new players
+
+# Promotion type definitions and constraints
+promotion_types:
+  bonus_credits:
+    description: "Additional credits added to player balance"
+    min_amount: 1.0
+    max_amount: 1000.0
+    
+  free_spins:
+    description: "Free spins on slot games"
+    min_amount: 1
+    max_amount: 200
+    
+  cashback:
+    description: "Percentage of losses returned"
+    min_multiplier: 0.01  # 1%
+    max_multiplier: 0.20  # 20%
+    
+  multiplier:
+    description: "Win multiplier bonus"
+    min_multiplier: 1.1
+    max_multiplier: 5.0
+    
+  welcome_bonus:
+    description: "Special bonus for new players"
+    min_amount: 10.0
+    max_amount: 500.0
+
+# Global rule constraints
+constraints:
+  max_concurrent_promotions: 3
+  min_player_level: 1
+  supported_countries: ["US", "UK", "CA", "AU", "DE", "FR", "ES", "IT", "NL", "SE"]
+  supported_currencies: ["USD", "EUR", "GBP", "CAD", "AUD"]
+  
+# Rule evaluation settings
+evaluation:
+  enable_caching: true
+  cache_ttl_seconds: 300  # 5 minutes
+  max_evaluation_time_ms: 100
+  enable_rule_timing: true
