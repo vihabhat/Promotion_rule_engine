@@ -8,7 +8,7 @@
 
 # def evaluate_user_promotions(user_profile):
 #     config = load_rules_from_yaml()
-#     rules = config.get("rules", [])   # ✅ this is the key fix
+#     rules = config.get("rules", [])   
 #     matcher = RuleMatcher()
 #     matcher.set_rules(rules)
 #     return matcher.evaluate(user_profile)

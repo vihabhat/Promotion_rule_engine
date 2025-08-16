@@ -1,138 +1,82 @@
 [
   {
-    "player_id": "46ca1f9a-a027-4a51-ba52-279d3d9868f1",
+    "player_id": "2db099b5-ec79-4bed-bd28-21e3dd916227",
     "matched_promotion": null,
     "user_profile": {
-      "player_id": "46ca1f9a-a027-4a51-ba52-279d3d9868f1",
-      "level": 10,
+      "player_id": "2db099b5-ec79-4bed-bd28-21e3dd916227",
+      "level": 43,
       "spend_tier": "platinum",
-      "days_since_last_purchase": 15,
-      "total_spent": 18636.74,
-      "current_balance": 221.44,
-      "country": "ES",
-      "registration_date": "2022-12-05"
+      "days_since_last_purchase": 33,
+      "total_spent": 10660.46,
+      "current_balance": 499.52,
+      "country": "JP",
+      "registration_date": "2024-07-21"
     }
   },
   {
-    "player_id": "3d42263a-0e96-416b-9898-c2161e37307d",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "3d42263a-0e96-416b-9898-c2161e37307d",
-      "level": 30,
-      "spend_tier": "bronze",
-      "days_since_last_purchase": 27,
-      "total_spent": 15701.55,
-      "current_balance": 4823.4,
-      "country": "CN",
-      "registration_date": "2022-12-15"
-    }
-  },
-  {
-    "player_id": "b29afc8a-91a7-4fbe-b2a5-cf11992914f4",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "b29afc8a-91a7-4fbe-b2a5-cf11992914f4",
-      "level": 5,
-      "spend_tier": "platinum",
-      "days_since_last_purchase": 18,
-      "total_spent": 14604.94,
-      "current_balance": 404.49,
-      "country": "DE",
-      "registration_date": "2023-01-17"
-    }
-  },
-  {
-    "player_id": "006b2b4d-352f-49da-b2ab-e2abfc0f323f",
+    "player_id": "4083e8cd-70a9-4c20-8b1f-96ddb35a21b8",
     "matched_promotion": [
       {
-        "id": "silver_bonus",
+        "id": "vip_bonus",
         "type": "bonus_credits",
-        "amount": 60.0
+        "amount": 200.0
       }
     ],
     "user_profile": {
-      "player_id": "006b2b4d-352f-49da-b2ab-e2abfc0f323f",
-      "level": 6,
-      "spend_tier": "silver",
-      "days_since_last_purchase": 0,
-      "total_spent": 11493.07,
-      "current_balance": 3872.83,
-      "country": "ZA",
-      "registration_date": "2023-01-28"
+      "player_id": "4083e8cd-70a9-4c20-8b1f-96ddb35a21b8",
+      "level": 41,
+      "spend_tier": "vip",
+      "days_since_last_purchase": 55,
+      "total_spent": 6958.49,
+      "current_balance": 296.16,
+      "country": "BR",
+      "registration_date": "2023-08-08"
     }
   },
   {
-    "player_id": "8238a0b4-c92e-4d0c-9a7c-6fb6e6dea29b",
+    "player_id": "d7db4b7a-ffc9-4961-b3a7-aa33290ef546",
     "matched_promotion": null,
     "user_profile": {
-      "player_id": "8238a0b4-c92e-4d0c-9a7c-6fb6e6dea29b",
-      "level": 49,
-      "spend_tier": "bronze",
+      "player_id": "d7db4b7a-ffc9-4961-b3a7-aa33290ef546",
+      "level": 33,
+      "spend_tier": "platinum",
       "days_since_last_purchase": 60,
-      "total_spent": 19879.62,
-      "current_balance": 1767.82,
-      "country": "RU",
-      "registration_date": "2023-02-15"
-    }
-  },
-  {
-    "player_id": "e57517da-6f87-472a-b70a-9488a28c896c",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "e57517da-6f87-472a-b70a-9488a28c896c",
-      "level": 39,
-      "spend_tier": "gold",
-      "days_since_last_purchase": 12,
-      "total_spent": 8024.13,
-      "current_balance": 3919.37,
-      "country": "UK",
-      "registration_date": "2024-05-24"
-    }
-  },
-  {
-    "player_id": "8898ba9e-291a-415a-9166-f527ee1516c1",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "8898ba9e-291a-415a-9166-f527ee1516c1",
-      "level": 31,
-      "spend_tier": "bronze",
-      "days_since_last_purchase": 2,
-      "total_spent": 1664.38,
-      "current_balance": 596.74,
+      "total_spent": 19884.73,
+      "current_balance": 364.62,
       "country": "NL",
-      "registration_date": "2024-09-29"
+      "registration_date": "2021-05-13"
     }
   },
   {
-    "player_id": "78138ce0-5fe2-4479-b710-5f2c7a488b25",
+    "player_id": "207e9f47-fb06-4657-81af-08072f6a5034",
     "matched_promotion": null,
     "user_profile": {
-      "player_id": "78138ce0-5fe2-4479-b710-5f2c7a488b25",
-      "level": 38,
-      "spend_tier": "bronze",
+      "player_id": "207e9f47-fb06-4657-81af-08072f6a5034",
+      "level": 33,
+      "spend_tier": "platinum",
+      "days_since_last_purchase": 25,
+      "total_spent": 15745.3,
+      "current_balance": 2520.68,
+      "country": "TR",
+      "registration_date": "2023-10-26"
+    }
+  },
+  {
+    "player_id": "c30617fa-a7c9-414b-85e2-c2af0eac98c3",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "c30617fa-a7c9-414b-85e2-c2af0eac98c3",
+      "level": 20,
+      "spend_tier": "platinum",
       "days_since_last_purchase": 18,
-      "total_spent": 17325.63,
-      "current_balance": 772.49,
-      "country": "IN",
-      "registration_date": "2021-01-28"
+      "total_spent": 13349.18,
+      "current_balance": 1660.14,
+      "country": "RU",
+      "registration_date": "2025-02-02"
     }
   },
   {
-    "player_id": "bd969e40-fb50-4451-9467-009c1413f6de",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "bd969e40-fb50-4451-9467-009c1413f6de",
-      "level": 6,
-      "spend_tier": "gold",
-      "days_since_last_purchase": 23,
-      "total_spent": 14999.68,
-      "current_balance": 4855.57,
-      "country": "ID",
-      "registration_date": "2022-06-22"
-    }
-  },
-  {
-    "player_id": "792d9adc-5ccc-492e-91a1-313ea612d216",
+    "player_id": "4db4a501-5e0b-4944-8dd6-01c0ab798f89",
     "matched_promotion": [
       {
         "id": "diamond_bonus",
@@ -141,376 +85,400 @@
       }
     ],
     "user_profile": {
-      "player_id": "792d9adc-5ccc-492e-91a1-313ea612d216",
+      "player_id": "4db4a501-5e0b-4944-8dd6-01c0ab798f89",
+      "level": 30,
+      "spend_tier": "diamond",
+      "days_since_last_purchase": 47,
+      "total_spent": 1734.66,
+      "current_balance": 3994.55,
+      "country": "TR",
+      "registration_date": "2022-07-21"
+    }
+  },
+  {
+    "player_id": "0fc441b6-8f83-40b5-afaa-131f75c6f3c2",
+    "matched_promotion": [
+      {
+        "id": "vip_bonus",
+        "type": "bonus_credits",
+        "amount": 200.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "0fc441b6-8f83-40b5-afaa-131f75c6f3c2",
+      "level": 1,
+      "spend_tier": "vip",
+      "days_since_last_purchase": 27,
+      "total_spent": 15934.08,
+      "current_balance": 2634.83,
+      "country": "UK",
+      "registration_date": "2021-10-23"
+    }
+  },
+  {
+    "player_id": "3994b1cf-bdfa-4201-acc9-3abf1f2b391c",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "3994b1cf-bdfa-4201-acc9-3abf1f2b391c",
+      "level": 25,
+      "spend_tier": "platinum",
+      "days_since_last_purchase": 26,
+      "total_spent": 1462.23,
+      "current_balance": 3555.83,
+      "country": "NL",
+      "registration_date": "2022-05-19"
+    }
+  },
+  {
+    "player_id": "1a91ebc9-8a90-4a8a-ac44-8a5824fed8e4",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "1a91ebc9-8a90-4a8a-ac44-8a5824fed8e4",
+      "level": 1,
+      "spend_tier": "platinum",
+      "days_since_last_purchase": 45,
+      "total_spent": 10397.41,
+      "current_balance": 1715.58,
+      "country": "ID",
+      "registration_date": "2022-12-08"
+    }
+  },
+  {
+    "player_id": "5c88b5d3-a8c7-4381-bd21-98a92dc7549c",
+    "matched_promotion": [
+      {
+        "id": "silver_bonus",
+        "type": "bonus_credits",
+        "amount": 60.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "5c88b5d3-a8c7-4381-bd21-98a92dc7549c",
+      "level": 5,
+      "spend_tier": "silver",
+      "days_since_last_purchase": 42,
+      "total_spent": 17440.33,
+      "current_balance": 2924.62,
+      "country": "CA",
+      "registration_date": "2025-01-02"
+    }
+  },
+  {
+    "player_id": "9e25929b-bd17-4ce7-b8af-cd6a2eb05e81",
+    "matched_promotion": [
+      {
+        "id": "silver_bonus",
+        "type": "bonus_credits",
+        "amount": 60.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "9e25929b-bd17-4ce7-b8af-cd6a2eb05e81",
+      "level": 19,
+      "spend_tier": "silver",
+      "days_since_last_purchase": 14,
+      "total_spent": 16981.1,
+      "current_balance": 743.6,
+      "country": "IN",
+      "registration_date": "2023-06-28"
+    }
+  },
+  {
+    "player_id": "4c15b2ae-f98d-41e0-8cd2-d993890dba0d",
+    "matched_promotion": [
+      {
+        "id": "vip_bonus",
+        "type": "bonus_credits",
+        "amount": 200.0
+      },
+      {
+        "id": "us_bonus",
+        "type": "bonus_credits",
+        "amount": 50.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "4c15b2ae-f98d-41e0-8cd2-d993890dba0d",
+      "level": 10,
+      "spend_tier": "vip",
+      "days_since_last_purchase": 21,
+      "total_spent": 14469.84,
+      "current_balance": 4155.31,
+      "country": "US",
+      "registration_date": "2021-06-23"
+    }
+  },
+  {
+    "player_id": "aa87a45a-fe71-4847-8063-ee2d17afb646",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "aa87a45a-fe71-4847-8063-ee2d17afb646",
+      "level": 39,
+      "spend_tier": "platinum",
+      "days_since_last_purchase": 12,
+      "total_spent": 10383.23,
+      "current_balance": 3657.03,
+      "country": "IN",
+      "registration_date": "2024-12-12"
+    }
+  },
+  {
+    "player_id": "d28f570d-0a76-4676-b233-5c0850e800a4",
+    "matched_promotion": [
+      {
+        "id": "diamond_bonus",
+        "type": "bonus_credits",
+        "amount": 120.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "d28f570d-0a76-4676-b233-5c0850e800a4",
       "level": 50,
       "spend_tier": "diamond",
-      "days_since_last_purchase": 50,
-      "total_spent": 14517.51,
-      "current_balance": 4868.52,
-      "country": "FR",
-      "registration_date": "2023-02-08"
-    }
-  },
-  {
-    "player_id": "922a46fe-e8fd-429f-b262-c17275cff27e",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "922a46fe-e8fd-429f-b262-c17275cff27e",
-      "level": 9,
-      "spend_tier": "gold",
-      "days_since_last_purchase": 9,
-      "total_spent": 538.81,
-      "current_balance": 324.99,
-      "country": "ES",
-      "registration_date": "2025-01-08"
-    }
-  },
-  {
-    "player_id": "1f19abce-a0f2-473c-9811-668a85c1ae36",
-    "matched_promotion": [
-      {
-        "id": "silver_bonus",
-        "type": "bonus_credits",
-        "amount": 60.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "1f19abce-a0f2-473c-9811-668a85c1ae36",
-      "level": 5,
-      "spend_tier": "silver",
-      "days_since_last_purchase": 33,
-      "total_spent": 12751.83,
-      "current_balance": 734.47,
-      "country": "ID",
-      "registration_date": "2022-06-24"
-    }
-  },
-  {
-    "player_id": "6dfd49a3-e268-4e58-8187-f0ff10426de8",
-    "matched_promotion": [
-      {
-        "id": "silver_bonus",
-        "type": "bonus_credits",
-        "amount": 60.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "6dfd49a3-e268-4e58-8187-f0ff10426de8",
-      "level": 9,
-      "spend_tier": "silver",
-      "days_since_last_purchase": 6,
-      "total_spent": 11919.79,
-      "current_balance": 1090.38,
-      "country": "BR",
-      "registration_date": "2021-10-10"
-    }
-  },
-  {
-    "player_id": "a3c2373d-e626-40d9-8559-440b3e416cc5",
-    "matched_promotion": [
-      {
-        "id": "vip_bonus",
-        "type": "bonus_credits",
-        "amount": 200.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "a3c2373d-e626-40d9-8559-440b3e416cc5",
-      "level": 8,
-      "spend_tier": "vip",
-      "days_since_last_purchase": 2,
-      "total_spent": 5993.62,
-      "current_balance": 3741.0,
-      "country": "FR",
-      "registration_date": "2025-02-07"
-    }
-  },
-  {
-    "player_id": "7e470ac0-3f2e-4496-bbc5-0efa502f41f0",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "7e470ac0-3f2e-4496-bbc5-0efa502f41f0",
-      "level": 12,
-      "spend_tier": "gold",
-      "days_since_last_purchase": 2,
-      "total_spent": 13826.17,
-      "current_balance": 1861.26,
-      "country": "UK",
-      "registration_date": "2025-05-23"
-    }
-  },
-  {
-    "player_id": "5193f613-4fb3-4f80-8fd2-09df3b1dbd76",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "5193f613-4fb3-4f80-8fd2-09df3b1dbd76",
-      "level": 38,
-      "spend_tier": "platinum",
-      "days_since_last_purchase": 41,
-      "total_spent": 13208.25,
-      "current_balance": 772.55,
-      "country": "MX",
-      "registration_date": "2025-04-26"
-    }
-  },
-  {
-    "player_id": "22a78f27-1dcb-4a0a-b522-f6c44076196f",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "22a78f27-1dcb-4a0a-b522-f6c44076196f",
-      "level": 32,
-      "spend_tier": "gold",
-      "days_since_last_purchase": 0,
-      "total_spent": 13501.67,
-      "current_balance": 4816.69,
-      "country": "UK",
-      "registration_date": "2023-10-18"
-    }
-  },
-  {
-    "player_id": "b4786143-9046-43c5-a857-87bb5401db90",
-    "matched_promotion": [
-      {
-        "id": "vip_bonus",
-        "type": "bonus_credits",
-        "amount": 200.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "b4786143-9046-43c5-a857-87bb5401db90",
-      "level": 16,
-      "spend_tier": "vip",
-      "days_since_last_purchase": 59,
-      "total_spent": 270.78,
-      "current_balance": 3784.29,
-      "country": "ES",
-      "registration_date": "2021-12-21"
-    }
-  },
-  {
-    "player_id": "da377512-8d5c-4b31-a9cf-46345379400f",
-    "matched_promotion": [
-      {
-        "id": "diamond_bonus",
-        "type": "bonus_credits",
-        "amount": 120.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "da377512-8d5c-4b31-a9cf-46345379400f",
-      "level": 19,
-      "spend_tier": "diamond",
-      "days_since_last_purchase": 45,
-      "total_spent": 19558.32,
-      "current_balance": 4813.61,
-      "country": "TR",
-      "registration_date": "2020-10-12"
-    }
-  },
-  {
-    "player_id": "ee93f7e8-60c1-4a34-847f-a7901315356f",
-    "matched_promotion": [
-      {
-        "id": "vip_bonus",
-        "type": "bonus_credits",
-        "amount": 200.0
-      },
-      {
-        "id": "us_bonus",
-        "type": "bonus_credits",
-        "amount": 50.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "ee93f7e8-60c1-4a34-847f-a7901315356f",
-      "level": 12,
-      "spend_tier": "vip",
-      "days_since_last_purchase": 46,
-      "total_spent": 5827.95,
-      "current_balance": 3677.94,
-      "country": "US",
-      "registration_date": "2022-02-02"
-    }
-  },
-  {
-    "player_id": "cadf09be-ea71-4fed-b303-65083c508093",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "cadf09be-ea71-4fed-b303-65083c508093",
-      "level": 18,
-      "spend_tier": "bronze",
-      "days_since_last_purchase": 40,
-      "total_spent": 15322.14,
-      "current_balance": 3650.24,
-      "country": "RU",
-      "registration_date": "2020-11-07"
-    }
-  },
-  {
-    "player_id": "08ab59fa-ae98-41e5-b580-90edfb1e16e8",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "08ab59fa-ae98-41e5-b580-90edfb1e16e8",
-      "level": 26,
-      "spend_tier": "bronze",
-      "days_since_last_purchase": 5,
-      "total_spent": 6586.67,
-      "current_balance": 4504.65,
-      "country": "MX",
-      "registration_date": "2023-09-23"
-    }
-  },
-  {
-    "player_id": "2bd2350b-3352-4498-ab48-5d67e0dcc2d8",
-    "matched_promotion": [
-      {
-        "id": "us_bonus",
-        "type": "bonus_credits",
-        "amount": 50.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "2bd2350b-3352-4498-ab48-5d67e0dcc2d8",
-      "level": 22,
-      "spend_tier": "gold",
-      "days_since_last_purchase": 27,
-      "total_spent": 14509.3,
-      "current_balance": 4676.57,
-      "country": "US",
-      "registration_date": "2020-09-11"
-    }
-  },
-  {
-    "player_id": "605f6f63-1389-4934-b7ff-32fb770bc2b0",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "605f6f63-1389-4934-b7ff-32fb770bc2b0",
-      "level": 41,
-      "spend_tier": "bronze",
-      "days_since_last_purchase": 19,
-      "total_spent": 19602.0,
-      "current_balance": 3101.37,
-      "country": "UK",
-      "registration_date": "2025-07-22"
-    }
-  },
-  {
-    "player_id": "a91ea6aa-7ac3-43f9-8e4e-80fdedac3503",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "a91ea6aa-7ac3-43f9-8e4e-80fdedac3503",
-      "level": 41,
-      "spend_tier": "bronze",
-      "days_since_last_purchase": 3,
-      "total_spent": 16106.52,
-      "current_balance": 702.13,
-      "country": "AR",
-      "registration_date": "2021-04-22"
-    }
-  },
-  {
-    "player_id": "7e0dcd62-d288-46fb-8a8b-a63341aea4ad",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "7e0dcd62-d288-46fb-8a8b-a63341aea4ad",
-      "level": 47,
-      "spend_tier": "platinum",
-      "days_since_last_purchase": 50,
-      "total_spent": 1209.58,
-      "current_balance": 1818.41,
-      "country": "CN",
-      "registration_date": "2020-12-01"
-    }
-  },
-  {
-    "player_id": "dd5247dd-7e30-4732-bad7-abfbda8b47ba",
-    "matched_promotion": [
-      {
-        "id": "diamond_bonus",
-        "type": "bonus_credits",
-        "amount": 120.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "dd5247dd-7e30-4732-bad7-abfbda8b47ba",
-      "level": 45,
-      "spend_tier": "diamond",
       "days_since_last_purchase": 23,
-      "total_spent": 7431.23,
-      "current_balance": 2566.41,
-      "country": "UK",
-      "registration_date": "2024-06-25"
-    }
-  },
-  {
-    "player_id": "3d9badb2-6db7-4b6f-a6a3-cee4f0cc83db",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "3d9badb2-6db7-4b6f-a6a3-cee4f0cc83db",
-      "level": 29,
-      "spend_tier": "gold",
-      "days_since_last_purchase": 46,
-      "total_spent": 9482.13,
-      "current_balance": 3204.64,
+      "total_spent": 16208.52,
+      "current_balance": 3611.53,
       "country": "JP",
-      "registration_date": "2021-01-21"
+      "registration_date": "2023-01-14"
     }
   },
   {
-    "player_id": "89442ef8-2cc9-4196-94f0-aa82221971a3",
+    "player_id": "a98453a2-6dca-43fc-9eef-30946200c42f",
     "matched_promotion": null,
     "user_profile": {
-      "player_id": "89442ef8-2cc9-4196-94f0-aa82221971a3",
+      "player_id": "a98453a2-6dca-43fc-9eef-30946200c42f",
+      "level": 3,
+      "spend_tier": "platinum",
+      "days_since_last_purchase": 44,
+      "total_spent": 14130.61,
+      "current_balance": 2729.63,
+      "country": "SE",
+      "registration_date": "2022-07-30"
+    }
+  },
+  {
+    "player_id": "bcfde2a4-0511-4243-9256-aa1102093b5a",
+    "matched_promotion": [
+      {
+        "id": "diamond_bonus",
+        "type": "bonus_credits",
+        "amount": 120.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "bcfde2a4-0511-4243-9256-aa1102093b5a",
+      "level": 32,
+      "spend_tier": "diamond",
+      "days_since_last_purchase": 34,
+      "total_spent": 11204.39,
+      "current_balance": 3378.35,
+      "country": "ZA",
+      "registration_date": "2020-12-15"
+    }
+  },
+  {
+    "player_id": "d7a88a15-e492-4e10-ad72-a1412610dd82",
+    "matched_promotion": [
+      {
+        "id": "silver_bonus",
+        "type": "bonus_credits",
+        "amount": 60.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "d7a88a15-e492-4e10-ad72-a1412610dd82",
+      "level": 15,
+      "spend_tier": "silver",
+      "days_since_last_purchase": 24,
+      "total_spent": 12962.18,
+      "current_balance": 2353.17,
+      "country": "ZA",
+      "registration_date": "2024-04-11"
+    }
+  },
+  {
+    "player_id": "42dc2178-cb04-4e40-91f5-f9f7627ae19c",
+    "matched_promotion": [
+      {
+        "id": "vip_bonus",
+        "type": "bonus_credits",
+        "amount": 200.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "42dc2178-cb04-4e40-91f5-f9f7627ae19c",
+      "level": 3,
+      "spend_tier": "vip",
+      "days_since_last_purchase": 37,
+      "total_spent": 19271.32,
+      "current_balance": 4592.71,
+      "country": "NL",
+      "registration_date": "2021-02-13"
+    }
+  },
+  {
+    "player_id": "23652f0e-e542-4d6d-bc1d-5e01ca748e22",
+    "matched_promotion": [
+      {
+        "id": "vip_bonus",
+        "type": "bonus_credits",
+        "amount": 200.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "23652f0e-e542-4d6d-bc1d-5e01ca748e22",
+      "level": 4,
+      "spend_tier": "vip",
+      "days_since_last_purchase": 30,
+      "total_spent": 17152.44,
+      "current_balance": 1245.57,
+      "country": "RU",
+      "registration_date": "2021-09-12"
+    }
+  },
+  {
+    "player_id": "3bbcbeb4-5a34-4b23-9f7a-eed6cfff6889",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "3bbcbeb4-5a34-4b23-9f7a-eed6cfff6889",
+      "level": 49,
+      "spend_tier": "bronze",
+      "days_since_last_purchase": 42,
+      "total_spent": 10876.58,
+      "current_balance": 2798.65,
+      "country": "BR",
+      "registration_date": "2021-03-01"
+    }
+  },
+  {
+    "player_id": "7f9abb02-b3e9-4eaf-85c6-cd26d3a21ade",
+    "matched_promotion": [
+      {
+        "id": "vip_bonus",
+        "type": "bonus_credits",
+        "amount": 200.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "7f9abb02-b3e9-4eaf-85c6-cd26d3a21ade",
+      "level": 46,
+      "spend_tier": "vip",
+      "days_since_last_purchase": 32,
+      "total_spent": 4782.38,
+      "current_balance": 1307.57,
+      "country": "ES",
+      "registration_date": "2022-06-10"
+    }
+  },
+  {
+    "player_id": "0036ed59-5a75-496c-a0f2-235148a331e6",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "0036ed59-5a75-496c-a0f2-235148a331e6",
+      "level": 38,
+      "spend_tier": "gold",
+      "days_since_last_purchase": 5,
+      "total_spent": 6462.9,
+      "current_balance": 2767.95,
+      "country": "ES",
+      "registration_date": "2025-03-07"
+    }
+  },
+  {
+    "player_id": "62245ba2-709c-4afb-a3ae-7a1e108de4a7",
+    "matched_promotion": [
+      {
+        "id": "vip_bonus",
+        "type": "bonus_credits",
+        "amount": 200.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "62245ba2-709c-4afb-a3ae-7a1e108de4a7",
+      "level": 20,
+      "spend_tier": "vip",
+      "days_since_last_purchase": 53,
+      "total_spent": 13950.31,
+      "current_balance": 3940.11,
+      "country": "TR",
+      "registration_date": "2021-12-08"
+    }
+  },
+  {
+    "player_id": "9fd63799-8c0c-4e6c-a4d2-793b91da4b2d",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "9fd63799-8c0c-4e6c-a4d2-793b91da4b2d",
       "level": 42,
       "spend_tier": "gold",
-      "days_since_last_purchase": 43,
-      "total_spent": 5806.67,
-      "current_balance": 968.0,
-      "country": "ID",
-      "registration_date": "2022-07-02"
+      "days_since_last_purchase": 30,
+      "total_spent": 7441.43,
+      "current_balance": 195.19,
+      "country": "IN",
+      "registration_date": "2025-05-11"
     }
   },
   {
-    "player_id": "0e1de3da-8710-4969-b9de-92eede70b8ae",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "0e1de3da-8710-4969-b9de-92eede70b8ae",
-      "level": 35,
-      "spend_tier": "platinum",
-      "days_since_last_purchase": 49,
-      "total_spent": 16416.62,
-      "current_balance": 1556.23,
-      "country": "RU",
-      "registration_date": "2023-01-01"
-    }
-  },
-  {
-    "player_id": "d3ad04dc-cda0-433e-8119-a1f7530530d9",
+    "player_id": "66f806f6-9561-4ca3-92c1-5b43ef4bc1a5",
     "matched_promotion": [
       {
         "id": "vip_bonus",
         "type": "bonus_credits",
         "amount": 200.0
-      },
+      }
+    ],
+    "user_profile": {
+      "player_id": "66f806f6-9561-4ca3-92c1-5b43ef4bc1a5",
+      "level": 50,
+      "spend_tier": "vip",
+      "days_since_last_purchase": 43,
+      "total_spent": 16032.3,
+      "current_balance": 3118.45,
+      "country": "CN",
+      "registration_date": "2023-07-30"
+    }
+  },
+  {
+    "player_id": "40c367cc-726e-400d-b789-890ae49abf3e",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "40c367cc-726e-400d-b789-890ae49abf3e",
+      "level": 18,
+      "spend_tier": "bronze",
+      "days_since_last_purchase": 32,
+      "total_spent": 1574.54,
+      "current_balance": 4605.18,
+      "country": "KR",
+      "registration_date": "2024-11-14"
+    }
+  },
+  {
+    "player_id": "ba269c34-ac09-49cd-9fbe-6081e0301587",
+    "matched_promotion": [
       {
         "id": "us_bonus",
         "type": "bonus_credits",
         "amount": 50.0
+      },
+      {
+        "id": "diamond_bonus",
+        "type": "bonus_credits",
+        "amount": 120.0
       }
     ],
     "user_profile": {
-      "player_id": "d3ad04dc-cda0-433e-8119-a1f7530530d9",
-      "level": 32,
-      "spend_tier": "vip",
-      "days_since_last_purchase": 19,
-      "total_spent": 15032.35,
-      "current_balance": 3349.13,
+      "player_id": "ba269c34-ac09-49cd-9fbe-6081e0301587",
+      "level": 40,
+      "spend_tier": "diamond",
+      "days_since_last_purchase": 23,
+      "total_spent": 9959.72,
+      "current_balance": 604.74,
       "country": "US",
-      "registration_date": "2023-09-05"
+      "registration_date": "2023-01-25"
     }
   },
   {
-    "player_id": "c7bf74b4-ad41-474b-b1ac-2dccf53dc8a2",
+    "player_id": "9dfba517-9550-4071-b8c5-5c668ab980d9",
     "matched_promotion": [
       {
         "id": "vip_bonus",
@@ -519,52 +487,332 @@
       }
     ],
     "user_profile": {
-      "player_id": "c7bf74b4-ad41-474b-b1ac-2dccf53dc8a2",
-      "level": 34,
+      "player_id": "9dfba517-9550-4071-b8c5-5c668ab980d9",
+      "level": 2,
       "spend_tier": "vip",
-      "days_since_last_purchase": 58,
-      "total_spent": 2267.06,
-      "current_balance": 1511.7,
+      "days_since_last_purchase": 13,
+      "total_spent": 16187.66,
+      "current_balance": 740.01,
+      "country": "BR",
+      "registration_date": "2020-09-05"
+    }
+  },
+  {
+    "player_id": "9010116a-172e-4fcb-95f4-22d6be3bc2df",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "9010116a-172e-4fcb-95f4-22d6be3bc2df",
+      "level": 4,
+      "spend_tier": "platinum",
+      "days_since_last_purchase": 4,
+      "total_spent": 13218.74,
+      "current_balance": 363.72,
+      "country": "CA",
+      "registration_date": "2021-10-20"
+    }
+  },
+  {
+    "player_id": "a909e697-b6c5-4d15-9089-6e6e0bb6b7cb",
+    "matched_promotion": [
+      {
+        "id": "diamond_bonus",
+        "type": "bonus_credits",
+        "amount": 120.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "a909e697-b6c5-4d15-9089-6e6e0bb6b7cb",
+      "level": 37,
+      "spend_tier": "diamond",
+      "days_since_last_purchase": 12,
+      "total_spent": 2817.34,
+      "current_balance": 97.86,
+      "country": "DE",
+      "registration_date": "2022-12-10"
+    }
+  },
+  {
+    "player_id": "297d1606-e999-4b02-98e5-612fc7af4cb6",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "297d1606-e999-4b02-98e5-612fc7af4cb6",
+      "level": 18,
+      "spend_tier": "bronze",
+      "days_since_last_purchase": 32,
+      "total_spent": 16779.27,
+      "current_balance": 1664.86,
+      "country": "FR",
+      "registration_date": "2024-03-09"
+    }
+  },
+  {
+    "player_id": "6c753f9f-d880-4a51-9a20-910ab364df7a",
+    "matched_promotion": [
+      {
+        "id": "diamond_bonus",
+        "type": "bonus_credits",
+        "amount": 120.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "6c753f9f-d880-4a51-9a20-910ab364df7a",
+      "level": 38,
+      "spend_tier": "diamond",
+      "days_since_last_purchase": 2,
+      "total_spent": 18306.8,
+      "current_balance": 4456.14,
+      "country": "ID",
+      "registration_date": "2021-08-07"
+    }
+  },
+  {
+    "player_id": "e9a8f6d2-d1d1-4819-9f7e-aa7b245ae9d2",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "e9a8f6d2-d1d1-4819-9f7e-aa7b245ae9d2",
+      "level": 40,
+      "spend_tier": "gold",
+      "days_since_last_purchase": 43,
+      "total_spent": 12017.44,
+      "current_balance": 2283.65,
+      "country": "CA",
+      "registration_date": "2023-02-22"
+    }
+  },
+  {
+    "player_id": "fe175c5f-dbae-47bd-ba78-844386b3df97",
+    "matched_promotion": [
+      {
+        "id": "silver_bonus",
+        "type": "bonus_credits",
+        "amount": 60.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "fe175c5f-dbae-47bd-ba78-844386b3df97",
+      "level": 37,
+      "spend_tier": "silver",
+      "days_since_last_purchase": 29,
+      "total_spent": 5022.21,
+      "current_balance": 3744.32,
+      "country": "NL",
+      "registration_date": "2025-01-09"
+    }
+  },
+  {
+    "player_id": "72f2a4b3-7784-4931-8382-a0251c1b50f7",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "72f2a4b3-7784-4931-8382-a0251c1b50f7",
+      "level": 23,
+      "spend_tier": "platinum",
+      "days_since_last_purchase": 5,
+      "total_spent": 5913.61,
+      "current_balance": 4542.61,
+      "country": "ES",
+      "registration_date": "2023-03-02"
+    }
+  },
+  {
+    "player_id": "5ca6ad2e-c921-4a77-a1a0-ad7abb050dcb",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "5ca6ad2e-c921-4a77-a1a0-ad7abb050dcb",
+      "level": 4,
+      "spend_tier": "bronze",
+      "days_since_last_purchase": 42,
+      "total_spent": 875.47,
+      "current_balance": 4461.31,
       "country": "UK",
+      "registration_date": "2025-06-30"
+    }
+  },
+  {
+    "player_id": "9ed5d9bc-d667-4cab-bd81-76589201c1d7",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "9ed5d9bc-d667-4cab-bd81-76589201c1d7",
+      "level": 37,
+      "spend_tier": "gold",
+      "days_since_last_purchase": 45,
+      "total_spent": 17481.98,
+      "current_balance": 4865.3,
+      "country": "CA",
+      "registration_date": "2023-05-10"
+    }
+  },
+  {
+    "player_id": "79d18820-57a8-43bd-93ff-5031b8c38703",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "79d18820-57a8-43bd-93ff-5031b8c38703",
+      "level": 33,
+      "spend_tier": "gold",
+      "days_since_last_purchase": 3,
+      "total_spent": 423.01,
+      "current_balance": 2677.46,
+      "country": "CN",
+      "registration_date": "2020-11-22"
+    }
+  },
+  {
+    "player_id": "f74d15d5-2c22-4c4d-954c-0fc213902bff",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "f74d15d5-2c22-4c4d-954c-0fc213902bff",
+      "level": 11,
+      "spend_tier": "gold",
+      "days_since_last_purchase": 22,
+      "total_spent": 18702.6,
+      "current_balance": 1266.2,
+      "country": "AU",
+      "registration_date": "2020-09-27"
+    }
+  },
+  {
+    "player_id": "980477af-8ac3-41bc-b2b6-411bd3e7b6e1",
+    "matched_promotion": [
+      {
+        "id": "silver_bonus",
+        "type": "bonus_credits",
+        "amount": 60.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "980477af-8ac3-41bc-b2b6-411bd3e7b6e1",
+      "level": 42,
+      "spend_tier": "silver",
+      "days_since_last_purchase": 51,
+      "total_spent": 7742.56,
+      "current_balance": 1048.26,
+      "country": "MX",
+      "registration_date": "2023-08-14"
+    }
+  },
+  {
+    "player_id": "87292384-8bf7-4416-8a27-c53775abedac",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "87292384-8bf7-4416-8a27-c53775abedac",
+      "level": 34,
+      "spend_tier": "platinum",
+      "days_since_last_purchase": 16,
+      "total_spent": 18249.42,
+      "current_balance": 59.74,
+      "country": "KR",
+      "registration_date": "2021-03-11"
+    }
+  },
+  {
+    "player_id": "af1b3746-1738-483f-82e6-e3b17b65b29c",
+    "matched_promotion": [
+      {
+        "id": "silver_bonus",
+        "type": "bonus_credits",
+        "amount": 60.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "af1b3746-1738-483f-82e6-e3b17b65b29c",
+      "level": 1,
+      "spend_tier": "silver",
+      "days_since_last_purchase": 38,
+      "total_spent": 19313.62,
+      "current_balance": 3431.77,
+      "country": "IT",
+      "registration_date": "2021-05-24"
+    }
+  },
+  {
+    "player_id": "a2072b49-9e06-4aeb-8a1a-81265fd14480",
+    "matched_promotion": [
+      {
+        "id": "diamond_bonus",
+        "type": "bonus_credits",
+        "amount": 120.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "a2072b49-9e06-4aeb-8a1a-81265fd14480",
+      "level": 32,
+      "spend_tier": "diamond",
+      "days_since_last_purchase": 7,
+      "total_spent": 15927.64,
+      "current_balance": 3769.42,
+      "country": "AR",
+      "registration_date": "2023-05-29"
+    }
+  },
+  {
+    "player_id": "bfd28e91-9f25-4d59-b606-4868b322615b",
+    "matched_promotion": [
+      {
+        "id": "vip_bonus",
+        "type": "bonus_credits",
+        "amount": 200.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "bfd28e91-9f25-4d59-b606-4868b322615b",
+      "level": 47,
+      "spend_tier": "vip",
+      "days_since_last_purchase": 14,
+      "total_spent": 3405.17,
+      "current_balance": 586.78,
+      "country": "AR",
+      "registration_date": "2023-04-12"
+    }
+  },
+  {
+    "player_id": "298a8fd4-72c9-44f5-889c-a7040c7c508a",
+    "matched_promotion": [
+      {
+        "id": "silver_bonus",
+        "type": "bonus_credits",
+        "amount": 60.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "298a8fd4-72c9-44f5-889c-a7040c7c508a",
+      "level": 48,
+      "spend_tier": "silver",
+      "days_since_last_purchase": 26,
+      "total_spent": 1018.08,
+      "current_balance": 2989.11,
+      "country": "NL",
+      "registration_date": "2024-06-05"
+    }
+  },
+  {
+    "player_id": "9b8de6ac-58f8-4763-b0a8-6bc064b2aefc",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "9b8de6ac-58f8-4763-b0a8-6bc064b2aefc",
+      "level": 29,
+      "spend_tier": "gold",
+      "days_since_last_purchase": 3,
+      "total_spent": 2772.24,
+      "current_balance": 4385.98,
+      "country": "IN",
+      "registration_date": "2020-08-30"
+    }
+  },
+  {
+    "player_id": "22e2218b-c56a-4dbf-aea1-5248d845ad96",
+    "matched_promotion": null,
+    "user_profile": {
+      "player_id": "22e2218b-c56a-4dbf-aea1-5248d845ad96",
+      "level": 47,
+      "spend_tier": "bronze",
+      "days_since_last_purchase": 30,
+      "total_spent": 1729.76,
+      "current_balance": 301.05,
+      "country": "ZA",
       "registration_date": "2021-12-13"
     }
   },
   {
-    "player_id": "0d2048d0-bc1a-4a4d-8dfd-9c525184814f",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "0d2048d0-bc1a-4a4d-8dfd-9c525184814f",
-      "level": 20,
-      "spend_tier": "bronze",
-      "days_since_last_purchase": 38,
-      "total_spent": 9449.66,
-      "current_balance": 706.11,
-      "country": "SE",
-      "registration_date": "2020-11-09"
-    }
-  },
-  {
-    "player_id": "f2e25420-f814-4d00-b7de-3a1e4f807354",
-    "matched_promotion": [
-      {
-        "id": "silver_bonus",
-        "type": "bonus_credits",
-        "amount": 60.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "f2e25420-f814-4d00-b7de-3a1e4f807354",
-      "level": 31,
-      "spend_tier": "silver",
-      "days_since_last_purchase": 40,
-      "total_spent": 16325.81,
-      "current_balance": 1760.41,
-      "country": "CN",
-      "registration_date": "2023-04-23"
-    }
-  },
-  {
-    "player_id": "c32c6bd0-cac9-4a5c-8ea0-85c8ce9a17b8",
+    "player_id": "fb700cc7-d18f-4b5d-9441-ea811c8eb720",
     "matched_promotion": [
       {
         "id": "diamond_bonus",
@@ -573,261 +821,18 @@
       }
     ],
     "user_profile": {
-      "player_id": "c32c6bd0-cac9-4a5c-8ea0-85c8ce9a17b8",
-      "level": 43,
+      "player_id": "fb700cc7-d18f-4b5d-9441-ea811c8eb720",
+      "level": 47,
       "spend_tier": "diamond",
-      "days_since_last_purchase": 41,
-      "total_spent": 1306.18,
-      "current_balance": 1575.99,
-      "country": "ZA",
-      "registration_date": "2020-12-24"
-    }
-  },
-  {
-    "player_id": "72f561b3-d32f-4778-badc-bc581acc2d5f",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "72f561b3-d32f-4778-badc-bc581acc2d5f",
-      "level": 44,
-      "spend_tier": "gold",
-      "days_since_last_purchase": 0,
-      "total_spent": 5997.59,
-      "current_balance": 4844.31,
-      "country": "JP",
-      "registration_date": "2024-06-09"
-    }
-  },
-  {
-    "player_id": "8fd017bf-0978-42d8-b0cc-128a7fd2ec19",
-    "matched_promotion": [
-      {
-        "id": "diamond_bonus",
-        "type": "bonus_credits",
-        "amount": 120.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "8fd017bf-0978-42d8-b0cc-128a7fd2ec19",
-      "level": 8,
-      "spend_tier": "diamond",
-      "days_since_last_purchase": 17,
-      "total_spent": 1115.51,
-      "current_balance": 4944.9,
-      "country": "MX",
-      "registration_date": "2021-10-17"
-    }
-  },
-  {
-    "player_id": "5e8c6602-302f-432d-8e41-53f12c6d51bc",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "5e8c6602-302f-432d-8e41-53f12c6d51bc",
-      "level": 39,
-      "spend_tier": "bronze",
-      "days_since_last_purchase": 38,
-      "total_spent": 9090.23,
-      "current_balance": 4316.64,
-      "country": "TR",
-      "registration_date": "2022-10-16"
-    }
-  },
-  {
-    "player_id": "7e0c3680-d952-45ac-a12b-db8598a57717",
-    "matched_promotion": [
-      {
-        "id": "silver_bonus",
-        "type": "bonus_credits",
-        "amount": 60.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "7e0c3680-d952-45ac-a12b-db8598a57717",
-      "level": 31,
-      "spend_tier": "silver",
-      "days_since_last_purchase": 12,
-      "total_spent": 11713.27,
-      "current_balance": 551.38,
-      "country": "CA",
-      "registration_date": "2024-08-29"
-    }
-  },
-  {
-    "player_id": "cc6c966e-978f-4b1a-90f7-fc20ff18f8e2",
-    "matched_promotion": [
-      {
-        "id": "diamond_bonus",
-        "type": "bonus_credits",
-        "amount": 120.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "cc6c966e-978f-4b1a-90f7-fc20ff18f8e2",
-      "level": 8,
-      "spend_tier": "diamond",
-      "days_since_last_purchase": 36,
-      "total_spent": 3156.15,
-      "current_balance": 2877.36,
-      "country": "BR",
-      "registration_date": "2022-05-28"
-    }
-  },
-  {
-    "player_id": "0dbfe467-6bb8-4cff-9115-817659aca4db",
-    "matched_promotion": [
-      {
-        "id": "silver_bonus",
-        "type": "bonus_credits",
-        "amount": 60.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "0dbfe467-6bb8-4cff-9115-817659aca4db",
-      "level": 24,
-      "spend_tier": "silver",
-      "days_since_last_purchase": 7,
-      "total_spent": 5452.64,
-      "current_balance": 2049.73,
-      "country": "BR",
-      "registration_date": "2023-03-03"
-    }
-  },
-  {
-    "player_id": "2a167afb-a417-4e5a-81f1-4cca6e8791db",
-    "matched_promotion": [
-      {
-        "id": "diamond_bonus",
-        "type": "bonus_credits",
-        "amount": 120.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "2a167afb-a417-4e5a-81f1-4cca6e8791db",
-      "level": 24,
-      "spend_tier": "diamond",
-      "days_since_last_purchase": 52,
-      "total_spent": 7556.55,
-      "current_balance": 4332.47,
-      "country": "CA",
-      "registration_date": "2024-07-26"
-    }
-  },
-  {
-    "player_id": "1a51a352-e529-4818-8bdc-754d352e9b31",
-    "matched_promotion": [
-      {
-        "id": "diamond_bonus",
-        "type": "bonus_credits",
-        "amount": 120.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "1a51a352-e529-4818-8bdc-754d352e9b31",
-      "level": 22,
-      "spend_tier": "diamond",
-      "days_since_last_purchase": 46,
-      "total_spent": 6510.58,
-      "current_balance": 2328.99,
+      "days_since_last_purchase": 14,
+      "total_spent": 14043.81,
+      "current_balance": 3128.22,
       "country": "NL",
-      "registration_date": "2022-07-23"
+      "registration_date": "2025-02-17"
     }
   },
   {
-    "player_id": "eb578cb3-6525-46af-beff-92e8293862a7",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "eb578cb3-6525-46af-beff-92e8293862a7",
-      "level": 48,
-      "spend_tier": "platinum",
-      "days_since_last_purchase": 41,
-      "total_spent": 13736.16,
-      "current_balance": 4506.73,
-      "country": "IN",
-      "registration_date": "2021-06-25"
-    }
-  },
-  {
-    "player_id": "18ab3e03-1cfe-452f-a069-4b87a390f3f8",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "18ab3e03-1cfe-452f-a069-4b87a390f3f8",
-      "level": 32,
-      "spend_tier": "gold",
-      "days_since_last_purchase": 25,
-      "total_spent": 18733.78,
-      "current_balance": 626.04,
-      "country": "NL",
-      "registration_date": "2021-07-15"
-    }
-  },
-  {
-    "player_id": "dadb296a-d3e6-46ed-865a-de21227fca12",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "dadb296a-d3e6-46ed-865a-de21227fca12",
-      "level": 26,
-      "spend_tier": "bronze",
-      "days_since_last_purchase": 9,
-      "total_spent": 13025.81,
-      "current_balance": 55.37,
-      "country": "NL",
-      "registration_date": "2023-12-15"
-    }
-  },
-  {
-    "player_id": "67b27eb0-463a-47bb-adf5-8beff906a74f",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "67b27eb0-463a-47bb-adf5-8beff906a74f",
-      "level": 11,
-      "spend_tier": "bronze",
-      "days_since_last_purchase": 58,
-      "total_spent": 9123.99,
-      "current_balance": 1041.45,
-      "country": "AU",
-      "registration_date": "2021-09-09"
-    }
-  },
-  {
-    "player_id": "6b825d26-f212-4421-9b14-6659868f3d3f",
-    "matched_promotion": null,
-    "user_profile": {
-      "player_id": "6b825d26-f212-4421-9b14-6659868f3d3f",
-      "level": 15,
-      "spend_tier": "gold",
-      "days_since_last_purchase": 27,
-      "total_spent": 8981.17,
-      "current_balance": 5.28,
-      "country": "UK",
-      "registration_date": "2023-05-02"
-    }
-  },
-  {
-    "player_id": "554264fa-a52b-4faf-b8d6-279f4a68d713",
-    "matched_promotion": [
-      {
-        "id": "us_bonus",
-        "type": "bonus_credits",
-        "amount": 50.0
-      },
-      {
-        "id": "diamond_bonus",
-        "type": "bonus_credits",
-        "amount": 120.0
-      }
-    ],
-    "user_profile": {
-      "player_id": "554264fa-a52b-4faf-b8d6-279f4a68d713",
-      "level": 42,
-      "spend_tier": "diamond",
-      "days_since_last_purchase": 22,
-      "total_spent": 13114.57,
-      "current_balance": 361.1,
-      "country": "US",
-      "registration_date": "2024-05-03"
-    }
-  },
-  {
-    "player_id": "79d7cff0-dc59-4b89-8a4e-4623e3422d39",
+    "player_id": "a4b0787e-9bbf-4660-a0a8-2e028604a161",
     "matched_promotion": [
       {
         "id": "vip_bonus",
@@ -836,14 +841,34 @@
       }
     ],
     "user_profile": {
-      "player_id": "79d7cff0-dc59-4b89-8a4e-4623e3422d39",
-      "level": 34,
+      "player_id": "a4b0787e-9bbf-4660-a0a8-2e028604a161",
+      "level": 47,
       "spend_tier": "vip",
-      "days_since_last_purchase": 5,
-      "total_spent": 4105.27,
-      "current_balance": 1609.53,
-      "country": "ZA",
-      "registration_date": "2025-01-16"
+      "days_since_last_purchase": 26,
+      "total_spent": 18579.41,
+      "current_balance": 635.35,
+      "country": "JP",
+      "registration_date": "2022-11-18"
+    }
+  },
+  {
+    "player_id": "1b36ce8e-0870-42a7-9883-6d9e93b427e6",
+    "matched_promotion": [
+      {
+        "id": "vip_bonus",
+        "type": "bonus_credits",
+        "amount": 200.0
+      }
+    ],
+    "user_profile": {
+      "player_id": "1b36ce8e-0870-42a7-9883-6d9e93b427e6",
+      "level": 44,
+      "spend_tier": "vip",
+      "days_since_last_purchase": 59,
+      "total_spent": 7145.88,
+      "current_balance": 1341.32,
+      "country": "CA",
+      "registration_date": "2024-11-03"
     }
   }
 ]
